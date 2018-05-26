@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  background: #000;
+  color: #fff; }
+
+#audioPlayer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 50vw;
+  max-width: 10em;
+  height: 50vh;
+  min-height: 5em;
+  font-size: 2em;
+  padding: 2em;
+  border: 1px solid white;
+  border-radius: 25px; }
+
+#display {
+  width: 100%;
+  padding: .5em;
+  overflow: hidden;
+  color: black;
+  background-color: gray;
+  border: 1px solid white;
+  border-radius: 50px; }
+
+#controls {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#controls > span {
+  border: 1px solid #fff;
+  padding: .5em;
+  margin: .25em; }
